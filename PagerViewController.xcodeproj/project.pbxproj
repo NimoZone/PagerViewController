@@ -1,0 +1,582 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0717A61C1EEE2AA70068A6A5 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A61B1EEE2AA70068A6A5 /* main.m */; };
+		0717A61F1EEE2AA70068A6A5 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A61E1EEE2AA70068A6A5 /* AppDelegate.m */; };
+		0717A6251EEE2AA70068A6A5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0717A6231EEE2AA70068A6A5 /* Main.storyboard */; };
+		0717A6271EEE2AA70068A6A5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0717A6261EEE2AA70068A6A5 /* Assets.xcassets */; };
+		0717A62A1EEE2AA70068A6A5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0717A6281EEE2AA70068A6A5 /* LaunchScreen.storyboard */; };
+		0717A6351EEE2AA70068A6A5 /* PagerViewControllerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A6341EEE2AA70068A6A5 /* PagerViewControllerTests.m */; };
+		0717A6401EEE2AA70068A6A5 /* PagerViewControllerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A63F1EEE2AA70068A6A5 /* PagerViewControllerUITests.m */; };
+		0717A6511EEE2B050068A6A5 /* HomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A6501EEE2B050068A6A5 /* HomeViewController.m */; };
+		0717A6541EEE2B1D0068A6A5 /* PagerView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A6531EEE2B1D0068A6A5 /* PagerView.m */; };
+		0717A6581EEE2FA80068A6A5 /* OneViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A6571EEE2FA80068A6A5 /* OneViewController.m */; };
+		0717A65B1EEE2FB30068A6A5 /* TwoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A65A1EEE2FB30068A6A5 /* TwoViewController.m */; };
+		0717A65E1EEE2FBF0068A6A5 /* ThreeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A65D1EEE2FBF0068A6A5 /* ThreeViewController.m */; };
+		0717A6611EEE31AC0068A6A5 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0717A6601EEE31AC0068A6A5 /* MBProgressHUD.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0717A6311EEE2AA70068A6A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0717A60F1EEE2AA60068A6A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0717A6161EEE2AA70068A6A5;
+			remoteInfo = PagerViewController;
+		};
+		0717A63C1EEE2AA70068A6A5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0717A60F1EEE2AA60068A6A5 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0717A6161EEE2AA70068A6A5;
+			remoteInfo = PagerViewController;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0717A6171EEE2AA70068A6A5 /* PagerViewController.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PagerViewController.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717A61B1EEE2AA70068A6A5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		0717A61D1EEE2AA70068A6A5 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		0717A61E1EEE2AA70068A6A5 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		0717A6241EEE2AA70068A6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0717A6261EEE2AA70068A6A5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0717A6291EEE2AA70068A6A5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0717A62B1EEE2AA70068A6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0717A6301EEE2AA70068A6A5 /* PagerViewControllerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerViewControllerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717A6341EEE2AA70068A6A5 /* PagerViewControllerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerViewControllerTests.m; sourceTree = "<group>"; };
+		0717A6361EEE2AA70068A6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0717A63B1EEE2AA70068A6A5 /* PagerViewControllerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PagerViewControllerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0717A63F1EEE2AA70068A6A5 /* PagerViewControllerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PagerViewControllerUITests.m; sourceTree = "<group>"; };
+		0717A6411EEE2AA70068A6A5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0717A64F1EEE2B050068A6A5 /* HomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeViewController.h; sourceTree = "<group>"; };
+		0717A6501EEE2B050068A6A5 /* HomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeViewController.m; sourceTree = "<group>"; };
+		0717A6521EEE2B1D0068A6A5 /* PagerView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PagerView.h; sourceTree = "<group>"; };
+		0717A6531EEE2B1D0068A6A5 /* PagerView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PagerView.m; sourceTree = "<group>"; };
+		0717A6551EEE2CD60068A6A5 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		0717A6561EEE2FA80068A6A5 /* OneViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OneViewController.h; sourceTree = "<group>"; };
+		0717A6571EEE2FA80068A6A5 /* OneViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OneViewController.m; sourceTree = "<group>"; };
+		0717A6591EEE2FB30068A6A5 /* TwoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TwoViewController.h; sourceTree = "<group>"; };
+		0717A65A1EEE2FB30068A6A5 /* TwoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TwoViewController.m; sourceTree = "<group>"; };
+		0717A65C1EEE2FBF0068A6A5 /* ThreeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThreeViewController.h; sourceTree = "<group>"; };
+		0717A65D1EEE2FBF0068A6A5 /* ThreeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThreeViewController.m; sourceTree = "<group>"; };
+		0717A65F1EEE31AC0068A6A5 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		0717A6601EEE31AC0068A6A5 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0717A6141EEE2AA70068A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A62D1EEE2AA70068A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A6381EEE2AA70068A6A5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0717A60E1EEE2AA60068A6A5 = {
+			isa = PBXGroup;
+			children = (
+				0717A6191EEE2AA70068A6A5 /* PagerViewController */,
+				0717A6331EEE2AA70068A6A5 /* PagerViewControllerTests */,
+				0717A63E1EEE2AA70068A6A5 /* PagerViewControllerUITests */,
+				0717A6181EEE2AA70068A6A5 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		0717A6181EEE2AA70068A6A5 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0717A6171EEE2AA70068A6A5 /* PagerViewController.app */,
+				0717A6301EEE2AA70068A6A5 /* PagerViewControllerTests.xctest */,
+				0717A63B1EEE2AA70068A6A5 /* PagerViewControllerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0717A6191EEE2AA70068A6A5 /* PagerViewController */ = {
+			isa = PBXGroup;
+			children = (
+				0717A64D1EEE2AEA0068A6A5 /* Controller */,
+				0717A64E1EEE2AEA0068A6A5 /* View */,
+				0717A61D1EEE2AA70068A6A5 /* AppDelegate.h */,
+				0717A61E1EEE2AA70068A6A5 /* AppDelegate.m */,
+				0717A6551EEE2CD60068A6A5 /* PrefixHeader.pch */,
+				0717A6231EEE2AA70068A6A5 /* Main.storyboard */,
+				0717A6261EEE2AA70068A6A5 /* Assets.xcassets */,
+				0717A6281EEE2AA70068A6A5 /* LaunchScreen.storyboard */,
+				0717A62B1EEE2AA70068A6A5 /* Info.plist */,
+				0717A61A1EEE2AA70068A6A5 /* Supporting Files */,
+			);
+			path = PagerViewController;
+			sourceTree = "<group>";
+		};
+		0717A61A1EEE2AA70068A6A5 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				0717A61B1EEE2AA70068A6A5 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0717A6331EEE2AA70068A6A5 /* PagerViewControllerTests */ = {
+			isa = PBXGroup;
+			children = (
+				0717A6341EEE2AA70068A6A5 /* PagerViewControllerTests.m */,
+				0717A6361EEE2AA70068A6A5 /* Info.plist */,
+			);
+			path = PagerViewControllerTests;
+			sourceTree = "<group>";
+		};
+		0717A63E1EEE2AA70068A6A5 /* PagerViewControllerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0717A63F1EEE2AA70068A6A5 /* PagerViewControllerUITests.m */,
+				0717A6411EEE2AA70068A6A5 /* Info.plist */,
+			);
+			path = PagerViewControllerUITests;
+			sourceTree = "<group>";
+		};
+		0717A64D1EEE2AEA0068A6A5 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0717A64F1EEE2B050068A6A5 /* HomeViewController.h */,
+				0717A6501EEE2B050068A6A5 /* HomeViewController.m */,
+				0717A6561EEE2FA80068A6A5 /* OneViewController.h */,
+				0717A6571EEE2FA80068A6A5 /* OneViewController.m */,
+				0717A6591EEE2FB30068A6A5 /* TwoViewController.h */,
+				0717A65A1EEE2FB30068A6A5 /* TwoViewController.m */,
+				0717A65C1EEE2FBF0068A6A5 /* ThreeViewController.h */,
+				0717A65D1EEE2FBF0068A6A5 /* ThreeViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0717A64E1EEE2AEA0068A6A5 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0717A6521EEE2B1D0068A6A5 /* PagerView.h */,
+				0717A6531EEE2B1D0068A6A5 /* PagerView.m */,
+				0717A65F1EEE31AC0068A6A5 /* MBProgressHUD.h */,
+				0717A6601EEE31AC0068A6A5 /* MBProgressHUD.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0717A6161EEE2AA70068A6A5 /* PagerViewController */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0717A6441EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewController" */;
+			buildPhases = (
+				0717A6131EEE2AA70068A6A5 /* Sources */,
+				0717A6141EEE2AA70068A6A5 /* Frameworks */,
+				0717A6151EEE2AA70068A6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PagerViewController;
+			productName = PagerViewController;
+			productReference = 0717A6171EEE2AA70068A6A5 /* PagerViewController.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0717A62F1EEE2AA70068A6A5 /* PagerViewControllerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0717A6471EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewControllerTests" */;
+			buildPhases = (
+				0717A62C1EEE2AA70068A6A5 /* Sources */,
+				0717A62D1EEE2AA70068A6A5 /* Frameworks */,
+				0717A62E1EEE2AA70068A6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0717A6321EEE2AA70068A6A5 /* PBXTargetDependency */,
+			);
+			name = PagerViewControllerTests;
+			productName = PagerViewControllerTests;
+			productReference = 0717A6301EEE2AA70068A6A5 /* PagerViewControllerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0717A63A1EEE2AA70068A6A5 /* PagerViewControllerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0717A64A1EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewControllerUITests" */;
+			buildPhases = (
+				0717A6371EEE2AA70068A6A5 /* Sources */,
+				0717A6381EEE2AA70068A6A5 /* Frameworks */,
+				0717A6391EEE2AA70068A6A5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0717A63D1EEE2AA70068A6A5 /* PBXTargetDependency */,
+			);
+			name = PagerViewControllerUITests;
+			productName = PagerViewControllerUITests;
+			productReference = 0717A63B1EEE2AA70068A6A5 /* PagerViewControllerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0717A60F1EEE2AA60068A6A5 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "曾涛";
+				TargetAttributes = {
+					0717A6161EEE2AA70068A6A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+					};
+					0717A62F1EEE2AA70068A6A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0717A6161EEE2AA70068A6A5;
+					};
+					0717A63A1EEE2AA70068A6A5 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 0717A6161EEE2AA70068A6A5;
+					};
+				};
+			};
+			buildConfigurationList = 0717A6121EEE2AA60068A6A5 /* Build configuration list for PBXProject "PagerViewController" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0717A60E1EEE2AA60068A6A5;
+			productRefGroup = 0717A6181EEE2AA70068A6A5 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0717A6161EEE2AA70068A6A5 /* PagerViewController */,
+				0717A62F1EEE2AA70068A6A5 /* PagerViewControllerTests */,
+				0717A63A1EEE2AA70068A6A5 /* PagerViewControllerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0717A6151EEE2AA70068A6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0717A62A1EEE2AA70068A6A5 /* LaunchScreen.storyboard in Resources */,
+				0717A6271EEE2AA70068A6A5 /* Assets.xcassets in Resources */,
+				0717A6251EEE2AA70068A6A5 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A62E1EEE2AA70068A6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A6391EEE2AA70068A6A5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0717A6131EEE2AA70068A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0717A6541EEE2B1D0068A6A5 /* PagerView.m in Sources */,
+				0717A65E1EEE2FBF0068A6A5 /* ThreeViewController.m in Sources */,
+				0717A6581EEE2FA80068A6A5 /* OneViewController.m in Sources */,
+				0717A61F1EEE2AA70068A6A5 /* AppDelegate.m in Sources */,
+				0717A65B1EEE2FB30068A6A5 /* TwoViewController.m in Sources */,
+				0717A61C1EEE2AA70068A6A5 /* main.m in Sources */,
+				0717A6511EEE2B050068A6A5 /* HomeViewController.m in Sources */,
+				0717A6611EEE31AC0068A6A5 /* MBProgressHUD.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A62C1EEE2AA70068A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0717A6351EEE2AA70068A6A5 /* PagerViewControllerTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0717A6371EEE2AA70068A6A5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0717A6401EEE2AA70068A6A5 /* PagerViewControllerUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0717A6321EEE2AA70068A6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0717A6161EEE2AA70068A6A5 /* PagerViewController */;
+			targetProxy = 0717A6311EEE2AA70068A6A5 /* PBXContainerItemProxy */;
+		};
+		0717A63D1EEE2AA70068A6A5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0717A6161EEE2AA70068A6A5 /* PagerViewController */;
+			targetProxy = 0717A63C1EEE2AA70068A6A5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0717A6231EEE2AA70068A6A5 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0717A6241EEE2AA70068A6A5 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0717A6281EEE2AA70068A6A5 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0717A6291EEE2AA70068A6A5 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0717A6421EEE2AA70068A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		0717A6431EEE2AA70068A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0717A6451EEE2AA70068A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = PagerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		0717A6461EEE2AA70068A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/PrefixHeader.pch";
+				INFOPLIST_FILE = PagerViewController/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewController;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		0717A6481EEE2AA70068A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerViewController.app/PagerViewController";
+			};
+			name = Debug;
+		};
+		0717A6491EEE2AA70068A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = PagerViewControllerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewControllerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/PagerViewController.app/PagerViewController";
+			};
+			name = Release;
+		};
+		0717A64B1EEE2AA70068A6A5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PagerViewController;
+			};
+			name = Debug;
+		};
+		0717A64C1EEE2AA70068A6A5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = PagerViewControllerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = dda.PagerViewControllerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = PagerViewController;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0717A6121EEE2AA60068A6A5 /* Build configuration list for PBXProject "PagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0717A6421EEE2AA70068A6A5 /* Debug */,
+				0717A6431EEE2AA70068A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0717A6441EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewController" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0717A6451EEE2AA70068A6A5 /* Debug */,
+				0717A6461EEE2AA70068A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0717A6471EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewControllerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0717A6481EEE2AA70068A6A5 /* Debug */,
+				0717A6491EEE2AA70068A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0717A64A1EEE2AA70068A6A5 /* Build configuration list for PBXNativeTarget "PagerViewControllerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0717A64B1EEE2AA70068A6A5 /* Debug */,
+				0717A64C1EEE2AA70068A6A5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0717A60F1EEE2AA60068A6A5 /* Project object */;
+}
